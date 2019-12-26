@@ -134,6 +134,11 @@ Data Peek(Queue *queue);
 4. Front와 Rear가 같은 위치를 가르키고 있으면 비어있는 상태
 5. Rear가 가르키는 위치의 앞을 Front가 가르키고 있으면 가득 찬 상태
 
+### 숙제
+
+두개의 스택으로 큐를 구현해 보세요
+맨 아래 링크 참조
+
 ## Deque
 
 ### 개념적 정의
@@ -176,3 +181,8 @@ Data GetFirst(Deque *deque);
 Data GetLast(Deque *deque);
 -덱의 꼬리에 위치한 데이터를 반환한다
 ```
+
+## 숙제 참고 링크
+
+[스택 계산기 구현](https://m.blog.naver.com/PostView.nhn?blogId=soohan530&logNo=221136285007&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
+[두 개의 Stack으로 하나의 Queue 구현](https://krgoodnews.tistory.com/entry/%EB%91%90-%EA%B0%9C%EC%9D%98-Stack%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%82%98%EC%9D%98-Queue%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%98%EB%9D%BC)
