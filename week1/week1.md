@@ -71,7 +71,7 @@ Data Peek(Stack *stack);
 3. 가장 마지막 저장된 위치를 Stack에서는 top이라고 한다
 4. 위 Operation을 구현한다
 
-###숙제
+### 숙제
 
 _Stack을 활용하여 계산기 구현_
 
@@ -79,20 +79,20 @@ _Stack을 활용하여 계산기 구현_
 2. 연산자의 우선순위를 근거로 연산의 순위를 결정한다
    tip) Google에 후위표기법, 중위표기법 관련 내용을 검색해보면 쉽게 구현할 수 있다
 
-##Queue
+## Queue
 
-###개념적 정의
+### 개념적 정의
 
 FIFO(First-IN, First-Out) 먼저 들어간 데이터가 먼저 나오는 구조
 예시)
 
-###기능적 구성
+### 기능적 구성
 
 1. Queue에 데이터를 저장한다 - Enqueue
 2. Queue에서 데이터를 꺼낸다 - Dequeue
 3. 가장 먼저 저장된 데이터를 확인한다 - Peek
 
-###Operations
+### Operations
 
 ```
 void Init(Queue *queue);
@@ -116,16 +116,17 @@ Data Peek(Queue *queue);
 -본 함수의 호출을 위해서는 데이터가 큐에 하나 이상 존재해야 한다
 ```
 
-###배열 기반 Queue 구현
+### 배열 기반 Queue 구현
 
 1. 큐의 머리(Front), 와 꼬리(Rear)의 위치를 가르키는 변수를 만든다
 2. 각각 변수에 해당하는 Index를 지정하여 기록한다
 3. 해당 Operation을 구현한다
 
-###배열 기반 Queue의 단점
+### 배열 기반 Queue의 단점
+
 **배열의 끝까지 Rear가 도달한 경우 데이터를 저장하지 못한다**
 
-###원형 큐의 구현
+### 원형 큐의 구현
 
 1. Rear가 배열의 끝에 도달한 경우 배열의 맨 앞으로 이동한다
 2. 이 때 배열의 모양이 원형과 같다 하여 원형 큐라고 한다
@@ -133,21 +134,21 @@ Data Peek(Queue *queue);
 4. Front와 Rear가 같은 위치를 가르키고 있으면 비어있는 상태
 5. Rear가 가르키는 위치의 앞을 Front가 가르키고 있으면 가득 찬 상태
 
-##Deque
+## Deque
 
-###개념적 정의
+### 개념적 정의
 
 _Double-ended Queue_
 양쪽 끝에서 삽입과 삭제가 모두 가능한 자료구조
 
-###기능적 구성
+### 기능적 구성
 
 1. 앞쪽에 저장
 2. 뒷쪽에 저장
 3. 앞쪽에서 삭제
 4. 뒷쪽에서 삭제
 
-###Operations
+### Operations
 
 ```
 void Init(Deque *deque);
