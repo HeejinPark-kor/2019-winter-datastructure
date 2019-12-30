@@ -27,6 +27,8 @@
    - 문자
    - 문자열
 
+![datastructure](./images/datastructure.png)
+
 ## Stack
 
 ### 개념적 정의
@@ -94,6 +96,8 @@ FIFO(First-IN, First-Out) 먼저 들어간 데이터가 먼저 나오는 구조
 2. Queue에서 데이터를 꺼낸다 - Dequeue
 3. 가장 먼저 저장된 데이터를 확인한다 - Peek
 
+![queue](./images/queue.jpg)
+
 ### Operations
 
 ```
@@ -136,6 +140,8 @@ Data Peek(Queue *queue);
 4. Front와 Rear가 같은 위치를 가르키고 있으면 비어있는 상태
 5. Rear가 가르키는 위치의 앞을 Front가 가르키고 있으면 가득 찬 상태
 
+![circular-queue](./images/Circular-queue.png)
+
 ### 숙제
 
 두개의 스택으로 큐를 구현해 보세요
@@ -154,6 +160,8 @@ _Double-ended Queue_
 2. 뒷쪽에 저장
 3. 앞쪽에서 삭제
 4. 뒷쪽에서 삭제
+
+![deque](./images/deque.png)
 
 ### Operations
 
