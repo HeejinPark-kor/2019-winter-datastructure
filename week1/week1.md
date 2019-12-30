@@ -40,7 +40,7 @@ LIFO(Last-In, First-Out) 먼저 저장된 데이터가 나중에 나오는 구�
 2. Stack에서 데이터를 꺼낸다 - Pop
 3. Stack에 가장 마지막에 저장된 데이터를 확인한다 - Peek
 
-![Stack]("https://res.cloudinary.com/practicaldev/image/fetch/s--GS1k4iwx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/l8r4ic2gedi0j9obd7ix.jpg")
+![Stack](./images/stack.jpg)
 
 ### Operations
 
