@@ -119,27 +119,26 @@ int Count(ArrayList *plist);
 ### Operations
 
 ```
-void Init(ArrayList *plist);
-- 초기화할 리스트의 주소 값을 인자로 전달한다
+Node* CreateNode(Data data);
+- 노드를 생성한다
 
-void Insert(ArrayList *plist, Data data);
-- 리스트에 데이터를 저장한다
+void DeleteNode(Node *node);
+- 노드를 삭제한다
 
-int First(ArrayList *plist, Data *pdata);
-- 첫 번째 데이터를 pdata가 가리키는 메모리에 저장한다
-- 참조 성공시 1, 실패시 0을 반환한다
+void InsertLast(Node **head, Node *newNode);
+- Tail 부분에 새로운 노드를 추가한다
 
-int Next(ArrayList *plist, Data *pdata);
-- 참조된 데이터의 다음 데이터를 pdata가 가리키는 메모리에 저장한다
-- 순차적인 참조를 위해서 반복 호출이 가능하다
-- 참조를 새로 시작하려면 먼저 First 함수를 호출한다
-- 참조 성공시 1, 실패시 0을 반환한다
+Node* getNode(Node *head, int index);
+- index에 위치한 노드를 찾는다
 
-Data Remove(ArrayList *plist);
-- First 또는 Next 함수의 마지막 반환 데이터를 삭제한다
-- 삭제된 데이터는 반환된다
-- 마지막 반환 데이터를 삭제하므로 연속적인 반복 호출은 금지한다
+void RemoveNode(Node **head, Node *removeNode);
+- 삭제하고자 하는 노드를 찾아 삭제한다
 
-int Count(ArrayList *plist);
-- 리스트에 저장되어 있는 데이터의 수를 반환한다
+void InsertAfter(Node *current, Node *newNode);
+- 지정된 노드 이후에 새로운 노드를 추가한다
 ```
+
+## 숙제
+
+1. ArrayList가 가득 찼을 경우 배열의 크기를 증가시키는 방법을 고민하고 수정해보세요
+2. 단방향 LinkedList를 수정하여 양방향 LinkedList로 구현해보세요
