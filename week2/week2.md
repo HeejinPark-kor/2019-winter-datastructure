@@ -10,17 +10,27 @@
 4. List는 빈틈없이 데이터를 적재함
 
 데이터 삭제의 경우
+
 ![delete2](./images/delete2.png)
+
 배열에서 4번째 데이터 삭제
+
 ![delete3](./images/delete3.png)
+
 리스트에서 4번째 데이터 삭제
 
 데이터 추가의 경우
+
 ![add1](./images/add1.png)
+
 해당 구조에서
+
 ![add2](./images/add2.png)
+
 배열에서 4번째에 데이터 추가시 해당 인덱스의 데이터를 대체함
+
 ![add3](./images/add3.png)
+
 리스트에서 4번째에 데이터 추가시 기존 데이터를 유지함
 
 ### List의 종류
