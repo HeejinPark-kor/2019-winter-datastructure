@@ -142,3 +142,8 @@ void InsertAfter(Node *current, Node *newNode);
 
 1. ArrayList가 가득 찼을 경우 배열의 크기를 증가시키는 방법을 고민하고 수정해보세요
 2. 단방향 LinkedList를 수정하여 양방향 LinkedList로 구현해보세요
+
+### 참고 사이트
+[양방향 Linked List](https://opentutorials.org/module/1335/8940)
+[Java로 구현한 양방향 Linked List](https://opentutorials.org/module/1335/8941)
+[C로 구현한 양방향 Linked List](https://macinjune.com/all-posts/web-developing/mac-develop-tip/c-doubly-linked-list-%EA%B5%AC%ED%98%84/)
