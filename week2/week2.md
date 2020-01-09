@@ -146,5 +146,7 @@ void InsertAfter(Node *current, Node *newNode);
 ### 참고 사이트
 
 [양방향 Linked List](https://opentutorials.org/module/1335/8940)
+
 [Java로 구현한 양방향 Linked List](https://opentutorials.org/module/1335/8941)
+
 [C로 구현한 양방향 Linked List](https://macinjune.com/all-posts/web-developing/mac-develop-tip/c-doubly-linked-list-%EA%B5%AC%ED%98%84/)
