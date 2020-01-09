@@ -60,7 +60,7 @@ import java.util.LinkedList;
 
 LinkedList<> list = new LinkedList<>();
 ArrayList<> list = new ArrayList<>();
-//Vector를 통해 해당 List의 자료형 지정 가능
+//제네릭을 통해 해당 List의 자료형 지정 가능
 ```
 
 ## ArrayList
