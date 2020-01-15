@@ -23,3 +23,4 @@ git clone https://github.com/HeejinPark-kor/2019-winter-datastructure.git
 - 2019-12-18 Add readme.md
 - 2019-12-26 Week1 Upload
 - 2020-01-08 Week2 Upload
+- 2020-01-15 Week3 Upload
